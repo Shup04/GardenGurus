@@ -59,3 +59,26 @@ html, body {
 .translucentHeroWave {
   bottom: 1.8vw;
 }
+.services {
+  width: 100%;
+}
+.servicesHeader {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 150px;
+
+  color: #20221A;
+}
+.servicesSubHeader {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 150px;
+
+  color: #20221A;
+}
