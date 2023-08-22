@@ -6,7 +6,7 @@ html, body {
 }
 .container {
   width: 80%;
-  background-color: orange;
+  margin: 0 auto;
 }
 .Hero {
   background-image: url("./Images/HeroBackground.png");
@@ -14,11 +14,26 @@ html, body {
   width: 100%;
   height: 800px;
 }
+.Header {
+  width: 80%;
+  max-width: 1250px;
+  height: 75px;
+  margin: 0 auto;
+  background: #F7FFF3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+.Logo {
+  margin-left: 1vw;
+}
 .heroText {
   position: absolute;
   width: 80%;
+  max-width: 1250px;
   top: 50%;
-  left: 45vw;
+  left: 50vw;
   transform: translate(-50%, -50%);
 
   font-family: 'Nunito';
