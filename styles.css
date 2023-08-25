@@ -107,6 +107,7 @@ html, body {
 }
 .serviceBox {
   width: 30%;
+  margin: 5px;
   border-radius: 35px;
   border-style: dashed;
   border-width: 2px;
@@ -119,41 +120,52 @@ html, body {
 .ServiceVector {
   width: 33%;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.4));
-  margin-top: 2vw;
+  margin-top: 1.5vw;
 }
 .ServiceHeader {
   font-family: 'Inter';
   font-weight: 900;
-  font-size: 1.8em;
+  font-size: 1.6em;
   text-align: center;
   color: #20221A;
 }
-@media(max-width: 1400px) {
-  .ServiceHeader {
-    font-size: 2.2vw;
-  }
-}
+
 .ServiceText {
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 1vw;
   text-align: center;
   color: #797979;
   padding: 15px;
-  margin-bottom: 4vw;
+  padding-bottom: 0;
+  margin-bottom: 1.5vw;
+}
+@media(max-width: 1400px) {
+  .ServiceHeader {
+    font-size: 1.8vw;
+  }
+  .ServiceText {
+    font-size: 1.5vw;
+  }
 }
 .ServiceImage {
   margin-top: auto;
   margin-bottom: 5px;
+  width: 80%;
+}
+.ServiceImageQuote {
+  margin-top: auto;
+  margin-bottom: 5px;
+  width: 80%;
+  text-align: center;
 }
 .ServiceButton {
   background: #EFF3ED;
   box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
   margin-top: 2vw;
-  margin-bottom: 2vw;
+  margin-bottom: 1.5vw;
   border-width: 0;
   width: 40%;
   aspect-ratio: 3;
