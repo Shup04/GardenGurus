@@ -10,6 +10,8 @@ html, body {
 }
 .Hero {
   background-image: url("./Images/HeroBackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   width: 100%;
   height: 800px;
@@ -180,6 +182,7 @@ html, body {
   width: 100%;
   background-color: #E8EBE7;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 .GalleryHeader {
   font-weight: 900;
@@ -201,4 +204,20 @@ html, body {
 .GalleryImage {
   width: 30%;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.4));
+}
+.Contact {
+  background-image: url("./Images/ContactBackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  position: relative;
+}
+.ContactWave {
+  position: absolute;
+  top: 0px;
+  width: 110%;
+  color: #F7FFF3;
+}
+.translucentContactWave {
+  top: 1.8vw;
 }
