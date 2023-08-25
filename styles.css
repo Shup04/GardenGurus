@@ -158,6 +158,7 @@ html, body {
   margin-top: auto;
   margin-bottom: 5px;
   width: 80%;
+  font-weight: 900;
   text-align: center;
 }
 .ServiceButton {
