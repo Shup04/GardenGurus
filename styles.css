@@ -211,6 +211,7 @@ html, body {
   background-size: cover;
   height: 1000px;
   position: relative;
+  padding-top: 150px;
 }
 .ContactWave {
   position: absolute;
@@ -220,4 +221,58 @@ html, body {
 }
 .translucentContactWave {
   top: 1.8vw;
+}
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 60%;
+  max-width: 800px;
+  height: 500px;
+  margin: 0 auto;
+
+  background: #F7FFF3;
+  border-radius: 25px;
+}
+.ContactHeader {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+
+  color: #A4D961;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+.inputName {
+  font-weight: 900;
+  font-size: 16px;
+  color: #20221A;
+}
+.inputBox {
+  height: 40px;
+  background: #F2F3F1;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  border-width: 0;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.submitButton {
+  background: #F2F3F1;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  border-width: 0;
+  height: 40px;
+  margin-top: 15px;
+  width: 100%;
+
+  font-weight: 900;
+  font-size: 14px;
+
+  color: #20221A;
 }

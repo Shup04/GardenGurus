@@ -126,14 +126,43 @@
       </div>
       <div class="GalleryRow">
         <img src="./Images/gallery/7.png" alt="Gallery Image 1" class="GalleryImage">
-        <img src="./Images/gallery/7.png" alt="Gallery Image 2" class="GalleryImage">
-        <img src="./Images/gallery/7.png" alt="Gallery Image 3" class="GalleryImage">
+        
       </div>
     </div>
 
     <div class="Contact">
       <image src="./Images/FooterWave2.svg" class="ContactWave translucentContactWave" />
       <image src="./Images/FooterWave1.svg" class="ContactWave" />
+      <div class="ContactForm">
+        <div class="ContactHeader" />
+          <span>Contact </span>
+          <span style="color: #20221A">Us</span>
+        </div>
+
+        <form class="form" action="process-form.php" method="post">
+          <div style="display: flex;">
+            <div style="width: 50%">
+              <label class="inputName" for="name">First Name *</label>
+              <input class="inputBox" type="text" name="name" required style="width: 90%">
+            </div>
+            <div style="width: 50%">
+              <label class="inputName" for="name">Last Name</label>
+              <input class="inputBox" type="text" name="name" style="width: 100%">
+            </div>
+          </div>
+          
+          <label class="inputName" for="email">Email *</label>
+          <input class="inputBox" type="email" name="email" required>
+        
+          <label class="inputName" for="service">Service</label>
+          <input class="inputBox" type="text" name="service">
+        
+          <label class="inputName" for="message">Message *</label>
+          <input class="inputBox" name="message" required></input>
+        
+          <button class="submitButton" type="submit">Submit</button>
+        </form>
+      </div>
 
     </div>
   </body>
