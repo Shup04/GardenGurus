@@ -178,6 +178,11 @@ html, body {
   text-align: center;
   color: #20221A;
 }
+@media(min-width: 1400px) {
+  .ServiceButton {
+    font-size: 1em;
+  }
+}
 .Gallery {
   width: 100%;
   background-color: #E8EBE7;
