@@ -289,3 +289,136 @@ html, body {
 
   color: #20221A;
 }
+
+@media screen and (max-width: 770px) {
+  body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #F7FFF3;
+    overflow-x: hidden;
+}
+
+/* Mobile Header Styles */
+.Header {
+    width: 100%;
+    height: 60px;
+}
+
+.Logo {
+    margin-left: 5px;
+}
+
+/* Mobile Hero Section Styles */
+.Hero {
+    height: 600px;
+}
+
+.heroText {
+    width: 100%;
+    top: 40%;
+}
+
+.heroHeader {
+    font-size: 2em;
+}
+
+.heroSubHeader {
+    font-size: 1.2em;
+}
+
+.heroButton {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.heroWave {
+    left: 0;
+}
+
+/* Mobile Services Section Styles */
+
+.servicesHeader {
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.servicesSubheader {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.servicesContainer {
+    flex-direction: column;
+    margin: 0;
+}
+
+.serviceBox {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.ServiceVector {
+  margin-top: 30px;
+    width: 25%;
+}
+
+.ServiceHeader {
+    font-size: 2.2em;
+}
+
+.ServiceText {
+    font-size: 1.5em;
+}
+
+.ServiceImage {
+    width: 60%;
+}
+
+.ServiceImageQuote {
+    font-size: 2em;
+}
+
+.ServiceButton {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    padding: 5px 15px;
+}
+
+/* Mobile Gallery Section Styles */
+.GalleryHeader {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.GalleryRow {
+    flex-direction: column;
+    margin: 0;
+}
+
+.GalleryImage {
+    width: 80%;
+}
+
+/* Mobile Contact Section Styles */
+.Contact {
+    height: 800px;
+    padding-top: 50px;
+}
+
+.ContactHeader {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #A4D961;
+}
+
+.inputName,
+.inputBox,
+.submitButton {
+    width: 100%;
+    font-size: 16px;
+}
+}
