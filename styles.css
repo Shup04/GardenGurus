@@ -365,11 +365,11 @@ html, body {
 }
 
 .ServiceHeader {
-    font-size: 2.2em;
+    font-size: 1.8em;
 }
 
 .ServiceText {
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .ServiceImage {
@@ -377,7 +377,8 @@ html, body {
 }
 
 .ServiceImageQuote {
-    font-size: 2em;
+  margin-top: 20px;
+    font-size: 1.2em;
 }
 
 .ServiceButton {
