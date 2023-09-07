@@ -304,6 +304,8 @@ html, body {
 .Header {
     width: 100%;
     height: 60px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
 
 .Logo {
@@ -316,7 +318,7 @@ html, body {
 }
 
 .heroText {
-    width: 100%;
+    width: 90%;
     top: 40%;
 }
 
@@ -350,12 +352,15 @@ html, body {
 }
 
 .servicesContainer {
+  width: 100%;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0;
 }
 
 .serviceBox {
-    width: 100%;
+    width: 80%;
     margin: 10px 0;
 }
 
