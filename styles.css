@@ -335,12 +335,7 @@ html, body {
     font-size: 18px;
 }
 
-.heroWave {
-    left: 0;
-}
-
 /* Mobile Services Section Styles */
-
 .servicesHeader {
     margin-top: 30px;
     font-size: 24px;
@@ -389,7 +384,7 @@ html, body {
 .ServiceButton {
     margin-top: 10px;
     margin-bottom: 30px;
-    font-size: 1.5em;
+    font-size: 1.3em;
     padding: 5px 15px;
 }
 
@@ -400,12 +395,16 @@ html, body {
 }
 
 .GalleryRow {
-    flex-direction: column;
-    margin: 0;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
 
 .GalleryImage {
     width: 80%;
+    margin-top: 25px;
 }
 
 /* Mobile Contact Section Styles */
@@ -419,6 +418,9 @@ html, body {
     margin-bottom: 20px;
     font-size: 24px;
     color: #A4D961;
+}
+.ContactForm {
+  width: 90%;
 }
 
 .inputName,
