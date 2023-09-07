@@ -4,6 +4,9 @@ html, body {
   background-color: #F7FFF3;
   overflow-x: hidden;
 }
+.contact {
+  scroll-behavior: smooth;
+}
 .container {
   width: 80%;
   margin: 0 auto;
@@ -66,6 +69,14 @@ html, body {
   letter-spacing: -0.05em;
 
   color: #20221A;
+}
+.heroButton:hover {
+  background-color: #D1D6CF; /* Change to a slightly different color on hover */
+  transform: scale(1.05); /* Scale the button slightly on hover */
+}
+
+.heroButton:active {
+  background-color: #A4A9A1; /* Change to a darker color when clicked */
 }
 .heroWave {
   position: absolute;
@@ -172,11 +183,21 @@ html, body {
   border-width: 0;
   width: 40%;
   aspect-ratio: 3;
-
   font-weight: 900;
   font-size: 1.5vw;
   text-align: center;
   color: #20221A;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.ServiceButton:hover {
+  background-color: #D1D6CF; /* Change to a slightly different color on hover */
+  transform: scale(1.05); /* Scale the button slightly on hover */
+}
+
+.ServiceButton:active {
+  background-color: #A4A9A1; /* Change to a darker color when clicked */
 }
 @media(min-width: 1400px) {
   .ServiceButton {
@@ -288,6 +309,14 @@ html, body {
   font-size: 14px;
 
   color: #20221A;
+}
+.submitButton:hover {
+  background-color: #D1D6CF; /* Change to a slightly different color on hover */
+  transform: scale(1.05); /* Scale the button slightly on hover */
+}
+
+.submitButton:active {
+  background-color: #A4A9A1; /* Change to a darker color when clicked */
 }
 
 @media screen and (max-width: 770px) {
