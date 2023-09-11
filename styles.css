@@ -242,7 +242,7 @@ html, body {
 }
 .ContactWave {
   position: absolute;
-  top: 0px;
+  top: -5px;
   width: 110%;
   color: #F7FFF3;
 }
@@ -285,7 +285,7 @@ html, body {
 .inputBox {
   height: 40px;
   background: #F2F3F1;
-  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
   border-width: 0;
   width: 100%;
