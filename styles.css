@@ -4,6 +4,9 @@ html, body {
   background-color: #F7FFF3;
   overflow-x: hidden;
 }
+.Mobile {
+  display: none;
+}
 .contact {
   scroll-behavior: smooth;
 }
@@ -204,270 +207,277 @@ html, body {
   .ServiceButton {
     font-size: 1em;
   }
-}
-.Gallery {
-  width: 100%;
-  background-color: #E8EBE7;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-.GalleryHeader {
-  font-weight: 900;
-  font-size: 36px;
-  text-align: center;
-  margin-bottom: 25px;
-
-  color: #20221A;
-}
-.GalleryRow {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  width: 90%;
-  max-width: 1250px;
-}
-.GalleryImage {
-  width: 30%;
-  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.4));
-}
-.Contact {
-  background-image: url("./Images/ContactBackground.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 800px;
-  position: relative;
-  padding-top: 250px;
-}
-.ContactWave {
-  position: absolute;
-  top: 0px;
-  width: 110%;
-  color: #F7FFF3;
-}
-.translucentContactWave {
-  top: 1.8vw;
-}
-.ContactForm {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  width: 60%;
-  max-width: 800px;
-  margin: 0 auto;
-
-  background: #F7FFF3;
-  border-radius: 25px;
-}
-.ContactHeader {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 36px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-
-  color: #A4D961;
-}
-.form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 80%;
-}
-.inputName {
-  font-weight: 900;
-  font-size: 16px;
-  color: #20221A;
-}
-
-.inputBox {
-  height: 40px;
-  background: #F2F3F1;
-  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 5px;
-  border-width: 0;
-  width: 100%;
-  margin-bottom: 10px;
-  padding-left: 5px;
-  font-size: 14px;
-
-  color: #20221A;
-  resize: none;
-}
-.submitButton {
-  background: #F2F3F1;
-  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 5px;
-  border-width: 0;
-  height: 40px;
-  margin-top: 15px;
-  margin-bottom: 50px;
-  width: 100%;
-
-  font-weight: 900;
-  font-size: 14px;
-
-  color: #20221A;
-}
-.submitButton:hover {
-  background-color: #D1D6CF; /* Change to a slightly different color on hover */
-  transform: scale(1.05); /* Scale the button slightly on hover */
-}
-
-.submitButton:active {
-  background-color: #A4A9A1; /* Change to a darker color when clicked */
-}
-
-@media screen and (max-width: 770px) {
-  body {
-    font-family: 'Nunito', sans-serif;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-    background-color: #F7FFF3;
-    overflow-x: hidden;
-}
-.Hero {
-  padding-top: 0;
-}
-/* Mobile Header Styles */
-.Header {
+  }
+  .Gallery {
     width: 100%;
-    height: 60px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-}
+    background-color: #E8EBE7;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .GalleryHeader {
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 25px;
 
-.Logo {
-    margin-left: 5px;
-}
-
-/* Mobile Hero Section Styles */
-.Hero {
-    height: 600px;
-}
-
-.heroText {
+    color: #20221A;
+  }
+  .GalleryRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 20px;
     width: 90%;
-    top: 40%;
-}
+    max-width: 1250px;
+  }
+  .GalleryImage {
+    width: 30%;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.4));
+  }
+  .Contact {
+    background-image: url("./Images/ContactBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    position: relative;
+    padding-top: 250px;
+  }
+  .ContactWave {
+    position: absolute;
+    top: 0px;
+    width: 110%;
+    color: #F7FFF3;
+  }
+  .translucentContactWave {
+    top: 1.8vw;
+  }
+  .ContactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 60%;
+    max-width: 800px;
+    margin: 0 auto;
 
-.heroHeader {
-    font-size: 2em;
-}
+    background: #F7FFF3;
+    border-radius: 25px;
+  }
+  .ContactHeader {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 
-.heroSubHeader {
-    font-size: 1.2em;
-}
-
-.heroButton {
-    padding: 10px 20px;
-    font-size: 18px;
-}
-
-/* Mobile Services Section Styles */
-.servicesHeader {
-    margin-top: 30px;
-    font-size: 24px;
-}
-
-.servicesSubheader {
-    margin-top: 15px;
+    color: #A4D961;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+  }
+  .inputName {
+    font-weight: 900;
     font-size: 16px;
-}
+    color: #20221A;
+  }
 
-.servicesContainer {
-  width: 100%;
+  .inputBox {
+    height: 40px;
+    background: #F2F3F1;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border-width: 0;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    font-size: 14px;
+
+    color: #20221A;
+    resize: none;
+  }
+  .submitButton {
+    background: #F2F3F1;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border-width: 0;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    width: 100%;
+
+    font-weight: 900;
+    font-size: 14px;
+
+    color: #20221A;
+  }
+  .submitButton:hover {
+    background-color: #D1D6CF; /* Change to a slightly different color on hover */
+    transform: scale(1.05); /* Scale the button slightly on hover */
+  }
+
+  .submitButton:active {
+    background-color: #A4A9A1; /* Change to a darker color when clicked */
+  }
+
+  @media screen and (max-width: 770px) {
+    body {
+      font-family: 'Nunito', sans-serif;
+      font-size: 16px;
+      margin: 0;
+      padding: 0;
+      background-color: #F7FFF3;
+      overflow-x: hidden;
+  }
+
+  .Hero {
+    padding-top: 0;
+  }
+  /* Mobile Header Styles */
+  .Header {
+      width: 100%;
+      height: 60px;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+  }
+
+  .Logo {
+      margin-left: 5px;
+  }
+
+  /* Mobile Hero Section Styles */
+  .Hero {
+      height: 600px;
+  }
+
+  .heroText {
+      width: 90%;
+      top: 40%;
+  }
+
+  .heroHeader {
+      font-size: 2em;
+  }
+
+  .heroSubHeader {
+      font-size: 1.2em;
+  }
+
+  .heroButton {
+      padding: 10px 20px;
+      font-size: 18px;
+  }
+
+  /* Mobile Services Section Styles */
+  .servicesHeader {
+      margin-top: 30px;
+      font-size: 24px;
+  }
+
+  .servicesSubheader {
+      margin-top: 15px;
+      font-size: 16px;
+  }
+
+  .servicesContainer {
+    width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+  }
+
+  .serviceBox {
+      width: 80%;
+      margin: 10px 0;
+  }
+
+  .ServiceVector {
+    margin-top: 30px;
+      width: 25%;
+  }
+
+  .ServiceHeader {
+      font-size: 1.8em;
+  }
+
+  .ServiceText {
+      font-size: 1.2em;
+  }
+
+  .ServiceImage {
+      width: 60%;
+  }
+
+  .ServiceImageQuote {
+    margin-top: 20px;
+      font-size: 1.2em;
+  }
+
+  .ServiceButton {
+      margin-top: 10px;
+      margin-bottom: 30px;
+      font-size: 1.3em;
+      padding: 5px 15px;
+  }
+
+  /* Mobile Gallery Section Styles */
+  .GalleryHeader {
+      margin-bottom: 15px;
+      font-size: 24px;
+  }
+
+  .GalleryRow {
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0;
-}
-
-.serviceBox {
-    width: 80%;
-    margin: 10px 0;
-}
-
-.ServiceVector {
-  margin-top: 30px;
-    width: 25%;
-}
-
-.ServiceHeader {
-    font-size: 1.8em;
-}
-
-.ServiceText {
-    font-size: 1.2em;
-}
-
-.ServiceImage {
-    width: 60%;
-}
-
-.ServiceImageQuote {
-  margin-top: 20px;
-    font-size: 1.2em;
-}
-
-.ServiceButton {
-    margin-top: 10px;
-    margin-bottom: 30px;
-    font-size: 1.3em;
-    padding: 5px 15px;
-}
-
-/* Mobile Gallery Section Styles */
-.GalleryHeader {
-    margin-bottom: 15px;
-    font-size: 24px;
-}
-
-.GalleryRow {
-  width: 100%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-}
-.GalleryGrid {
-  width: 100%;
-  height: 100px;
-  grid-gap: 50px;
-  display: flex;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));;
-  justify-content: space-between;
-  background-color: blue;
-}
-
-.GalleryImage {
-    width: 80%;
-    margin-top: 25px;
-}
-
-/* Mobile Contact Section Styles */
-.Contact {
-    height: 800px;
-    padding-top: 50px;
-}
-
-.ContactHeader {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 24px;
-    color: #A4D961;
-}
-.ContactForm {
-  width: 90%;
-}
-
-.inputName,
-.inputBox,
-.submitButton {
+  }
+  .GalleryGrid {
     width: 100%;
-    font-size: 16px;
-}
+    height: 100px;
+    grid-gap: 50px;
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));;
+    justify-content: space-between;
+    background-color: blue;
+  }
+
+  .GalleryImage {
+      width: 80%;
+      margin-top: 25px;
+  }
+
+  /* Mobile Contact Section Styles */
+  .Contact {
+      height: 800px;
+      padding-top: 50px;
+  }
+
+  .ContactHeader {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: 24px;
+      color: #A4D961;
+  }
+  .ContactForm {
+    width: 90%;
+  }
+
+  .inputName,
+  .inputBox,
+  .submitButton {
+      width: 100%;
+      font-size: 16px;
+  }
+  .GalleryGridMobile {
+    display: block;
+  }
+  .GalleryGrid {
+    display: none;
+  }
 }
