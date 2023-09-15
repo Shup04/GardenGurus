@@ -469,7 +469,12 @@ html, body {
   .GalleryGridMobile {
     display: block;
   }
+  .GalleryImageMobile {
+    max-width: 100%; /* Ensure images fit within their containers */
+    margin: 0 15px; /* Add spacing between carousel items */
+  }
   .GalleryRow {
     display: none;
   }
+
 }
