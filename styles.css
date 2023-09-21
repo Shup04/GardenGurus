@@ -33,7 +33,7 @@ html, body {
 }
 .Logo {
   margin-left: 1vw;
-  height: 80%;
+  height: 35%;
 }
 .heroText {
   position: absolute;
@@ -120,6 +120,7 @@ html, body {
   margin-bottom: 250px;
   width: 90%;
   max-width: 1250px;
+
 }
 .serviceBox {
   width: 30%;
@@ -326,6 +327,9 @@ html, body {
     background-color: #A4A9A1; /* Change to a darker color when clicked */
   }
   
+  .ServiceGridMobile {
+    display: none;
+  }
 
   @media screen and (max-width: 770px) {
     body {
@@ -471,13 +475,35 @@ html, body {
   }
   .GalleryGridMobile {
     display: block;
+    overflow: visible;
   }
   .GalleryImageMobile {
     max-width: 100%; /* Ensure images fit within their containers */
-    margin: 0 15px; /* Add spacing between carousel items */
+    margin: 0 15px;
+    padding-bottom: 15px; /* Add spacing between carousel items */
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.4));
+    overflow: visible;
   }
   .GalleryRow {
     display: none;
+    overflow: visible;
   }
 
+  .servicesContainer {
+    display: none;
+  }
+  .serviceBox {
+    margin: 0 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    aspect-ratio: 1;
+  }
+  .ServiceGridMobile{
+    display: flex;
+  }
 }
+
+
