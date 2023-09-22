@@ -421,8 +421,7 @@ html, body {
   }
 
   .ServiceImageQuote {
-    margin-top: 20px;
-      font-size: 1.2em;
+    font-size: 1.2em;
   }
 
   .ServiceButton {
@@ -497,14 +496,20 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100%;
     width: 100%;
-    aspect-ratio: 1;
   }
   .ServiceGridMobile{
     display: flex;
   }
   .BoxWrapper {
     margin: 15px;
+  }
+  .ContactForm {
+    margin-top: 75px;
+  }
+  .slick-track {
+    margin-bottom: 75px;
   }
 }
 

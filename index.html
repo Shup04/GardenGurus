@@ -199,6 +199,19 @@
         
       </div>
 
+      <script>
+        $(document).ready(function() {
+          var maxHeight = 0;
+          $(".BoxWrapper").each(function() {
+            var currentHeight = $(this).height();
+            if (currentHeight > maxHeight) {
+              maxHeight = currentHeight;
+            }
+          });
+          $(".BoxWrapper").height(maxHeight);
+        });
+      </script>
+
 
     <div class="Gallery">
       <div class="GalleryHeader">

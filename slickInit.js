@@ -39,15 +39,7 @@ $(document).ready(function(){
           slidesToShow: 1
         }
       },
-      {
-        breakpoint: 480,
-        settings: {
-          arrows: true,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1
-        }
-      }
+      
     ]
   });
 });
