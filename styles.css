@@ -493,9 +493,8 @@ html, body {
     display: none;
   }
   .serviceBox {
-    margin: 0 15px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -503,6 +502,9 @@ html, body {
   }
   .ServiceGridMobile{
     display: flex;
+  }
+  .BoxWrapper {
+    margin: 15px;
   }
 }
 
