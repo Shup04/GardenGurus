@@ -26,9 +26,17 @@
   </head>
   <body>
     <div class="Hero">
+
       <div class="Header">
         <image src="./Images/Logo.svg" class="Logo"/>
+        <div class="headerButtons">
+          <button class="heroButton headerButton" onClick="document.getElementById('services').scrollIntoView({ behavior: 'smooth' });">Our Services</button>
+        <button class="heroButton headerButton" onClick="document.getElementById('gallery').scrollIntoView({ behavior: 'smooth' });">Our Gallery</button>
+        <button class="heroButton headerButton" onClick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });">Contact</button>
+        </div>
+        
       </div>
+
       <div class="container">
         <div class="heroText">
           <h1 class="heroHeader">Transform Your Space<br>With Garden Guru.</h1>
@@ -213,7 +221,7 @@
       </script>
 
 
-    <div class="Gallery">
+    <div class="Gallery" id="gallery">
       <div class="GalleryHeader">
         <span>Past </span>
         <span style="color: #A4D961">Project </span>

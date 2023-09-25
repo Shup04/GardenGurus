@@ -21,7 +21,7 @@ html, body {
   padding-top: 40px;
 }
 .Header {
-  width: 80%;
+  width: 90%;
   max-width: 1250px;
   height: 75px;
   margin: 0 auto;
@@ -204,6 +204,14 @@ html, body {
 .ServiceButton:active {
   background-color: #A4A9A1; /* Change to a darker color when clicked */
 }
+.headerButton {
+  margin-left: 1vw;
+}
+.headerButtons {
+  margin-right: 2vw;
+  margin-left: auto;
+}
+
 @media(min-width: 1400px) {
   .ServiceButton {
     font-size: 1em;
