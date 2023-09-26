@@ -425,6 +425,7 @@ html, body {
   .serviceBox {
       width: 80%;
       margin: 10px 0;
+      height: 100%;
   }
 
   .ServiceVector {
